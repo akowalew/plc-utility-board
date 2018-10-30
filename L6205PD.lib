@@ -1,0 +1,46 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model L6205PD
+#/179367/71628/2.33/21/3/Integrated Circuit
+DEF L6205PD IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "L6205PD" 1250 200 50 H V L CNN
+F2 "SOIC127P1420X360-21N" 1250 100 50 H I L CNN
+F3 "http://docs-emea.rs-online.com/webdocs/0e7f/0900766b80e7f357.pdf" 1250 0 50 H I L CNN
+F4 "L6205PD, Full Bridge Motor Driver, Full Bridge PWM, 8  52 V, 20-Pin PowerSO" 1250 -100 50 H I L CNN "Description"
+F5 "3.6" 1250 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "L6205PD" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1686795" 1250 -500 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1686795" 1250 -600 50 H I L CNN "RS Price/Stock"
+F10 "70013885" 1250 -700 50 H I L CNN "Allied_Number"
+F11 "http://www.alliedelec.com/stmicroelectronics-l6205pd/70013885/" 1250 -800 50 H I L CNN "Allied Price/Stock"
+F12 "L6205PD" 1250 -900 50 H I L CNN "Arrow Part Number"
+F13 "https://www.arrow.com/en/products/l6205pd/stmicroelectronics" 1250 -1000 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND 1 0 0 200 R 50 50 0 0 B
+X VSA 2 0 -100 200 R 50 50 0 0 B
+X OUT2A 3 0 -200 200 R 50 50 0 0 B
+X VCP 4 0 -300 200 R 50 50 0 0 B
+X ENA 5 0 -400 200 R 50 50 0 0 B
+X IN1A 6 0 -500 200 R 50 50 0 0 B
+X IN2A 7 0 -600 200 R 50 50 0 0 B
+X SENSEA 8 0 -700 200 R 50 50 0 0 B
+X OUT1A 9 0 -800 200 R 50 50 0 0 B
+X GND_1 10 0 -900 200 R 50 50 0 0 B
+X EP 21 700 -1400 200 U 50 50 0 0 B
+X GND_3 20 1400 0 200 L 50 50 0 0 B
+X VSB 19 1400 -100 200 L 50 50 0 0 B
+X OUT2B 18 1400 -200 200 L 50 50 0 0 B
+X VBOOT 17 1400 -300 200 L 50 50 0 0 B
+X ENB 16 1400 -400 200 L 50 50 0 0 B
+X IN2B 15 1400 -500 200 L 50 50 0 0 B
+X IN1B 14 1400 -600 200 L 50 50 0 0 B
+X SENSEB 13 1400 -700 200 L 50 50 0 0 B
+X OUT1B 12 1400 -800 200 L 50 50 0 0 B
+X GND_2 11 1400 -900 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1200 100 1200 -1200 200 -1200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

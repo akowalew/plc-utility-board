@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# TPS54240DGQ
+#
+DEF TPS54240DGQ U 0 40 Y Y 1 L N
+F0 "U" -223 588 50 H V L BNN
+F1 "TPS54240DGQ" -114 -927 50 H V L BNN
+F2 "SOP50P490X110-11N" 0 0 50 H I L BNN
+F3 "Unavailable" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "Texas Instruments" 0 0 50 H I L BNN
+F6 "3.5V to 42V Input, 2.5A Step-Down Converter with Eco-Mode 10-MSOP-PowerPAD -40 to 125" 0 0 50 H I L BNN
+F7 "TPS54240DGQ" 0 0 50 H I L BNN
+F8 "MSOP-10 Texas Instruments" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 500 -500 -800 N
+P 2 0 0 16 -500 -800 500 -800 N
+P 2 0 0 16 500 -800 500 500 N
+P 2 0 0 16 500 500 -500 500 N
+X VIN 2 -700 300 200 R 40 40 0 0 W 
+X EN 3 -700 100 200 R 40 40 0 0 I 
+X PH 10 -700 0 200 R 40 40 0 0 I 
+X RT/CLK 5 -700 -100 200 R 40 40 0 0 I 
+X SS/TR 4 -700 -200 200 R 40 40 0 0 I 
+X VSENSE 7 -700 -300 200 R 40 40 0 0 I 
+X GND 9 -700 -500 200 R 40 40 0 0 P 
+X THERMAL_PAD 11 -700 -600 200 R 40 40 0 0 P 
+X BOOT 1 700 300 200 L 40 40 0 0 O 
+X COMP 8 700 200 200 L 40 40 0 0 O 
+X PWRGD 6 700 100 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library

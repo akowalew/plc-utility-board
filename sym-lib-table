@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name mylib)(type Legacy)(uri /home/akowalew/workspace/plc-utility-board/mylib.lib)(options "")(descr ""))
+  (lib (name L6205PD)(type Legacy)(uri ${KIPRJMOD}/L6205PD.lib)(options "")(descr ""))
+  (lib (name TPS54240DGQ)(type Legacy)(uri ${KIPRJMOD}/TPS54240DGQ.lib)(options "")(descr ""))
+)

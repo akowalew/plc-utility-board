@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name mylib)(type KiCad)(uri ${KIPRJMOD}/mylib.pretty)(options "")(descr ""))
+  (lib (name L6205PD)(type Legacy)(uri ${KIPRJMOD}/L6205PD.mod)(options "")(descr ""))
+  (lib (name TPS54240DGQ)(type Legacy)(uri ${KIPRJMOD}/TPS54240DGQ.mod)(options "")(descr ""))
+)
