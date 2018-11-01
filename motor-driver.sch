@@ -1,0 +1,291 @@
+EESchema Schematic File Version 4
+LIBS:plc-utility-board-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L mylib:A3950SLP-T U3
+U 1 1 5BD9640D
+P 5800 3600
+AR Path="/5BDB64FF/5BD9640D" Ref="U3"  Part="1" 
+AR Path="/5BF2FCBD/5BD9640D" Ref="U?"  Part="1" 
+AR Path="/5C015BE4/5BD9640D" Ref="U5"  Part="1" 
+F 0 "U3" H 6050 4415 50  0000 C CNN
+F 1 "A3950SLP-T" H 6050 4324 50  0000 C CNN
+F 2 "" H 6100 4300 50  0001 C CNN
+F 3 "" H 6100 4300 50  0001 C CNN
+	1    5800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5BD9C7A2
+P 6050 4700
+AR Path="/5BDB64FF/5BD9C7A2" Ref="#PWR017"  Part="1" 
+AR Path="/5BF2FCBD/5BD9C7A2" Ref="#PWR?"  Part="1" 
+AR Path="/5C015BE4/5BD9C7A2" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 6050 4450 50  0001 C CNN
+F 1 "GND" H 6055 4527 50  0000 C CNN
+F 2 "" H 6050 4700 50  0001 C CNN
+F 3 "" H 6050 4700 50  0001 C CNN
+	1    6050 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4700 6050 4600
+Wire Wire Line
+	6050 4600 5400 4600
+Wire Wire Line
+	4850 4600 4850 3500
+Wire Wire Line
+	4850 3500 5500 3500
+Connection ~ 6050 4600
+Wire Wire Line
+	6050 4600 6050 4300
+Wire Wire Line
+	5500 4100 5400 4100
+Wire Wire Line
+	5400 4100 5400 4600
+Connection ~ 5400 4600
+Wire Wire Line
+	5400 4600 4850 4600
+$Comp
+L Device:C C8
+U 1 1 5BDA6B35
+P 6700 4350
+AR Path="/5BDB64FF/5BDA6B35" Ref="C8"  Part="1" 
+AR Path="/5BF2FCBD/5BDA6B35" Ref="C?"  Part="1" 
+AR Path="/5C015BE4/5BDA6B35" Ref="C17"  Part="1" 
+F 0 "C8" H 6550 4400 50  0000 C CNN
+F 1 "0.1uF 50V" H 6400 4300 50  0000 C CNN
+F 2 "" H 6738 4200 50  0001 C CNN
+F 3 "~" H 6700 4350 50  0001 C CNN
+F 4 "50V" V 6700 4350 50  0001 C CNN "Voltage"
+	1    6700 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4100 6700 4100
+$Comp
+L Device:C C12
+U 1 1 5BDBEA6E
+P 7350 3800
+AR Path="/5BDB64FF/5BDBEA6E" Ref="C12"  Part="1" 
+AR Path="/5BF2FCBD/5BDBEA6E" Ref="C?"  Part="1" 
+AR Path="/5C015BE4/5BDBEA6E" Ref="C21"  Part="1" 
+F 0 "C12" V 7200 3750 50  0000 L CNN
+F 1 "0.1uF 50V" V 7100 3600 50  0000 L CNN
+F 2 "" H 7388 3650 50  0001 C CNN
+F 3 "~" H 7350 3800 50  0001 C CNN
+	1    7350 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 4200 6700 4100
+Wire Wire Line
+	6050 4600 6700 4600
+Wire Wire Line
+	6700 4600 6700 4500
+$Comp
+L Device:C C9
+U 1 1 5BDD7CCD
+P 6850 3350
+AR Path="/5BDB64FF/5BDD7CCD" Ref="C9"  Part="1" 
+AR Path="/5BF2FCBD/5BDD7CCD" Ref="C?"  Part="1" 
+AR Path="/5C015BE4/5BDD7CCD" Ref="C18"  Part="1" 
+F 0 "C9" V 6550 3350 50  0000 C CNN
+F 1 "0.1uF 50V" V 6650 3350 50  0000 C CNN
+F 2 "" H 6888 3200 50  0001 C CNN
+F 3 "~" H 6850 3350 50  0001 C CNN
+	1    6850 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 3350 6700 3350
+Wire Wire Line
+	7100 3350 7000 3350
+Wire Wire Line
+	7100 3350 7100 4100
+Wire Wire Line
+	7100 4100 6700 4100
+Connection ~ 6700 4100
+Wire Wire Line
+	7100 4200 7100 4100
+Connection ~ 7100 4100
+Wire Wire Line
+	7100 4500 7100 4600
+Wire Wire Line
+	7100 4600 6700 4600
+Connection ~ 6700 4600
+$Comp
+L Device:CP C10
+U 1 1 5BDE6995
+P 7100 4350
+AR Path="/5BDB64FF/5BDE6995" Ref="C10"  Part="1" 
+AR Path="/5BF2FCBD/5BDE6995" Ref="C?"  Part="1" 
+AR Path="/5C015BE4/5BDE6995" Ref="C19"  Part="1" 
+F 0 "C10" H 7218 4396 50  0000 L CNN
+F 1 "100uF" H 7218 4305 50  0000 L CNN
+F 2 "" H 7138 4200 50  0001 C CNN
+F 3 "~" H 7100 4350 50  0001 C CNN
+	1    7100 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3800 7500 3800
+Wire Wire Line
+	7600 3800 7600 3650
+Wire Wire Line
+	6600 3650 7600 3650
+Wire Wire Line
+	6600 3500 7700 3500
+Wire Wire Line
+	7700 3500 7700 4600
+Wire Wire Line
+	7700 4600 7100 4600
+Connection ~ 7100 4600
+$Comp
+L Device:C C11
+U 1 1 5BDFF4AF
+P 7350 3200
+AR Path="/5BDB64FF/5BDFF4AF" Ref="C11"  Part="1" 
+AR Path="/5BF2FCBD/5BDFF4AF" Ref="C?"  Part="1" 
+AR Path="/5C015BE4/5BDFF4AF" Ref="C20"  Part="1" 
+F 0 "C11" V 7098 3200 50  0000 C CNN
+F 1 "0.22uF 25V" V 7189 3200 50  0000 C CNN
+F 2 "" H 7388 3050 50  0001 C CNN
+F 3 "~" H 7350 3200 50  0001 C CNN
+	1    7350 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 3200 7700 3200
+Wire Wire Line
+	7700 3200 7700 3500
+Connection ~ 7700 3500
+Wire Wire Line
+	6600 3200 7200 3200
+Wire Wire Line
+	6600 3800 7200 3800
+$Comp
+L Device:R R27
+U 1 1 5BE2A012
+P 5000 2800
+AR Path="/5BDB64FF/5BE2A012" Ref="R27"  Part="1" 
+AR Path="/5BF2FCBD/5BE2A012" Ref="R?"  Part="1" 
+AR Path="/5C015BE4/5BE2A012" Ref="R44"  Part="1" 
+F 0 "R27" H 5070 2846 50  0000 L CNN
+F 1 "5k" H 5070 2755 50  0000 L CNN
+F 2 "" V 4930 2800 50  0001 C CNN
+F 3 "~" H 5000 2800 50  0001 C CNN
+	1    5000 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2950 5000 3650
+Wire Wire Line
+	5000 3650 5500 3650
+$Comp
+L Device:LED D4
+U 1 1 5BE427B2
+P 5400 2400
+AR Path="/5BDB64FF/5BE427B2" Ref="D4"  Part="1" 
+AR Path="/5BF2FCBD/5BE427B2" Ref="D?"  Part="1" 
+AR Path="/5C015BE4/5BE427B2" Ref="D7"  Part="1" 
+F 0 "D4" V 5438 2282 50  0000 R CNN
+F 1 "RED" V 5347 2282 50  0000 R CNN
+F 2 "" H 5400 2400 50  0001 C CNN
+F 3 "~" H 5400 2400 50  0001 C CNN
+	1    5400 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5BE42954
+P 5400 2800
+AR Path="/5BDB64FF/5BE42954" Ref="R28"  Part="1" 
+AR Path="/5BF2FCBD/5BE42954" Ref="R?"  Part="1" 
+AR Path="/5C015BE4/5BE42954" Ref="R45"  Part="1" 
+F 0 "R28" H 5470 2846 50  0000 L CNN
+F 1 "220" H 5470 2755 50  0000 L CNN
+F 2 "" V 5330 2800 50  0001 C CNN
+F 3 "~" H 5400 2800 50  0001 C CNN
+	1    5400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2150 5400 2150
+Wire Wire Line
+	5400 2150 5400 2250
+Connection ~ 5000 2150
+Wire Wire Line
+	5000 2150 5000 2650
+Wire Wire Line
+	5400 2550 5400 2650
+Wire Wire Line
+	5400 2950 5400 3050
+Wire Wire Line
+	5400 3050 5500 3050
+Text HLabel 7800 3350 2    50   Input ~ 0
+VBB
+Wire Wire Line
+	7800 3350 7100 3350
+Connection ~ 7100 3350
+Text HLabel 5400 3200 0    50   Input ~ 0
+MODE
+Text HLabel 5400 3350 0    50   Input ~ 0
+PHASE
+Wire Wire Line
+	5400 3200 5500 3200
+Wire Wire Line
+	5400 3350 5500 3350
+Text HLabel 5400 3800 0    50   Input ~ 0
+ENABLE
+Wire Wire Line
+	5400 3800 5500 3800
+Text HLabel 4750 2150 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	4750 2150 5000 2150
+Text HLabel 4750 4600 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4750 4600 4850 4600
+Connection ~ 4850 4600
+Text HLabel 5400 3950 0    50   Output ~ 0
+OUTA
+Wire Wire Line
+	5500 3950 5400 3950
+Text HLabel 6700 3950 2    50   Output ~ 0
+OUTB
+Wire Wire Line
+	6700 3950 6600 3950
+Wire Wire Line
+	8750 3550 8750 3400
+Text HLabel 8750 3550 3    50   Input ~ 0
+VBB
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5C04A11D
+P 8750 3400
+AR Path="/5BDB64FF/5C04A11D" Ref="#FLG02"  Part="1" 
+AR Path="/5C015BE4/5C04A11D" Ref="#FLG03"  Part="1" 
+F 0 "#FLG03" H 8750 3475 50  0001 C CNN
+F 1 "PWR_FLAG" H 8750 3574 50  0000 C CNN
+F 2 "" H 8750 3400 50  0001 C CNN
+F 3 "~" H 8750 3400 50  0001 C CNN
+	1    8750 3400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
