@@ -23,7 +23,7 @@ AR Path="/5BEFAA7D/5BD40A2B" Ref="RV?"  Part="1"
 AR Path="/5BEFD0FF/5BD40A2B" Ref="RV?"  Part="1" 
 F 0 "RV2" H 4450 3700 50  0000 R CNN
 F 1 "10k" H 4450 3600 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 4250 3450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical" H 4250 3450 50  0001 C CNN
 F 3 "~" H 4250 3450 50  0001 C CNN
 	1    4250 3450
 	1    0    0    -1  
@@ -37,7 +37,7 @@ AR Path="/5BEFAA7D/5BD4124B" Ref="RV?"  Part="1"
 AR Path="/5BEFD0FF/5BD4124B" Ref="RV?"  Part="1" 
 F 0 "RV3" H 4850 3700 50  0000 R CNN
 F 1 "10k" H 4850 3600 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 4650 3450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical" H 4650 3450 50  0001 C CNN
 F 3 "~" H 4650 3450 50  0001 C CNN
 	1    4650 3450
 	1    0    0    -1  
@@ -58,7 +58,7 @@ AR Path="/5BEFAA7D/5BD41463" Ref="RV?"  Part="1"
 AR Path="/5BEFD0FF/5BD41463" Ref="RV?"  Part="1" 
 F 0 "RV4" H 5250 3700 50  0000 R CNN
 F 1 "10k" H 5250 3600 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 5050 3450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical" H 5050 3450 50  0001 C CNN
 F 3 "~" H 5050 3450 50  0001 C CNN
 	1    5050 3450
 	1    0    0    -1  
@@ -77,7 +77,7 @@ AR Path="/5BEFAA7D/5BD414F9" Ref="RV?"  Part="1"
 AR Path="/5BEFD0FF/5BD414F9" Ref="RV?"  Part="1" 
 F 0 "RV5" H 5650 3700 50  0000 R CNN
 F 1 "10k" H 5650 3600 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 5450 3450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical" H 5450 3450 50  0001 C CNN
 F 3 "~" H 5450 3450 50  0001 C CNN
 	1    5450 3450
 	1    0    0    -1  
@@ -128,7 +128,7 @@ AR Path="/5BEFAA7D/5BD46C30" Ref="RV?"  Part="1"
 AR Path="/5BEFD0FF/5BD46C30" Ref="RV?"  Part="1" 
 F 0 "RV6" H 6050 3700 50  0000 R CNN
 F 1 "10k" H 6050 3600 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 5850 3450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical" H 5850 3450 50  0001 C CNN
 F 3 "~" H 5850 3450 50  0001 C CNN
 	1    5850 3450
 	1    0    0    -1  
@@ -155,7 +155,7 @@ AR Path="/5BEFAA7D/5BD4810A" Ref="RV?"  Part="1"
 AR Path="/5BEFD0FF/5BD4810A" Ref="RV?"  Part="1" 
 F 0 "RV7" H 6450 3700 50  0000 R CNN
 F 1 "10k" H 6450 3600 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 6250 3450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical" H 6250 3450 50  0001 C CNN
 F 3 "~" H 6250 3450 50  0001 C CNN
 	1    6250 3450
 	1    0    0    -1  
@@ -182,7 +182,7 @@ AR Path="/5BEFAA7D/5BD4A795" Ref="RV?"  Part="1"
 AR Path="/5BEFD0FF/5BD4A795" Ref="RV?"  Part="1" 
 F 0 "RV8" H 6850 3700 50  0000 R CNN
 F 1 "10k" H 6850 3600 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 6650 3450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical" H 6650 3450 50  0001 C CNN
 F 3 "~" H 6650 3450 50  0001 C CNN
 	1    6650 3450
 	1    0    0    -1  
@@ -207,7 +207,7 @@ AR Path="/5BEFAA7D/5BD4C495" Ref="RV?"  Part="1"
 AR Path="/5BEFD0FF/5BD4C495" Ref="RV?"  Part="1" 
 F 0 "RV9" H 7250 3700 50  0000 R CNN
 F 1 "10k" H 7250 3600 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 7050 3450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical" H 7050 3450 50  0001 C CNN
 F 3 "~" H 7050 3450 50  0001 C CNN
 	1    7050 3450
 	1    0    0    -1  

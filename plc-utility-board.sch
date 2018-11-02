@@ -26,21 +26,21 @@ F5 "VIN" I L 1750 1500 50
 F6 "GND" I L 1750 1600 50 
 $EndSheet
 $Sheet
-S 4100 2300 750  800 
+S 4100 2300 750  1000
 U 5BDB584C
 F0 "ttl-to-plc" 50
 F1 "ttl-to-plc.sch" 50
 F2 "24V" I L 4100 2850 50 
 F3 "GND" I L 4100 3000 50 
-F4 "GND" O R 4850 3000 50 
+F4 "GND" O R 4850 3200 50 
 F5 "IN1" I L 4100 2400 50 
 F6 "IN2" I L 4100 2500 50 
 F7 "IN3" I L 4100 2600 50 
 F8 "IN4" I L 4100 2700 50 
 F9 "OUT1" O R 4850 2400 50 
-F10 "OUT2" O R 4850 2500 50 
-F11 "OUT3" O R 4850 2600 50 
-F12 "OUT4" O R 4850 2700 50 
+F10 "OUT2" O R 4850 2600 50 
+F11 "OUT3" O R 4850 2800 50 
+F12 "OUT4" O R 4850 3000 50 
 $EndSheet
 $Sheet
 S 4100 3500 750  500 
@@ -66,7 +66,7 @@ U 1 1 5BE769E9
 P 7500 3700
 F 0 "J8" H 7580 3742 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 7580 3651 50  0000 L CNN
-F 2 "" H 7500 3700 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 7500 3700 50  0001 C CNN
 F 3 "~" H 7500 3700 50  0001 C CNN
 	1    7500 3700
 	1    0    0    -1  
@@ -83,7 +83,7 @@ U 1 1 5BE7A1DF
 P 7500 4450
 F 0 "J9" H 7580 4442 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 7580 4351 50  0000 L CNN
-F 2 "" H 7500 4450 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 7500 4450 50  0001 C CNN
 F 3 "~" H 7500 4450 50  0001 C CNN
 	1    7500 4450
 	1    0    0    -1  
@@ -98,7 +98,7 @@ U 1 1 5BE8D7D9
 P 3600 1250
 F 0 "J2" H 3600 1750 50  0000 C CNN
 F 1 "Screw_Terminal_01x08" H 3600 1650 50  0000 C CNN
-F 2 "" H 3600 1250 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal" H 3600 1250 50  0001 C CNN
 F 3 "~" H 3600 1250 50  0001 C CNN
 	1    3600 1250
 	-1   0    0    -1  
@@ -125,7 +125,7 @@ U 1 1 5BE9C49A
 P 5350 1250
 F 0 "J4" H 5350 1750 50  0000 C CNN
 F 1 "Screw_Terminal_01x08" H 5350 1650 50  0000 C CNN
-F 2 "" H 5350 1250 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal" H 5350 1250 50  0001 C CNN
 F 3 "~" H 5350 1250 50  0001 C CNN
 	1    5350 1250
 	1    0    0    -1  
@@ -152,7 +152,7 @@ U 1 1 5BF03786
 P 3600 2500
 F 0 "J3" H 3600 2800 50  0000 C CNN
 F 1 "Screw_Terminal_01x04" H 3600 2700 50  0000 C CNN
-F 2 "" H 3600 2500 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal" H 3600 2500 50  0001 C CNN
 F 3 "~" H 3600 2500 50  0001 C CNN
 	1    3600 2500
 	-1   0    0    -1  
@@ -165,46 +165,6 @@ Wire Wire Line
 	3800 2600 4100 2600
 Wire Wire Line
 	3800 2700 4100 2700
-$Comp
-L mylib:TerminalBlock_02x04 J5
-U 1 1 5BF08E3E
-P 5400 2500
-F 0 "J5" H 5400 2825 50  0000 C CNN
-F 1 "TerminalBlock_02x04" H 5400 2734 50  0000 C CNN
-F 2 "" H 5400 2500 50  0001 C CNN
-F 3 "" H 5400 2500 50  0001 C CNN
-	1    5400 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 2400 5150 2400
-Wire Wire Line
-	4850 2500 5150 2500
-Wire Wire Line
-	4850 2600 5150 2600
-Wire Wire Line
-	4850 2700 5150 2700
-Wire Wire Line
-	4850 3000 5750 3000
-Wire Wire Line
-	5750 3000 5750 2700
-Wire Wire Line
-	5750 2400 5650 2400
-Wire Wire Line
-	5650 2500 5750 2500
-Connection ~ 5750 2500
-Wire Wire Line
-	5750 2500 5750 2400
-Wire Wire Line
-	5650 2600 5750 2600
-Connection ~ 5750 2600
-Wire Wire Line
-	5750 2600 5750 2500
-Connection ~ 5750 2700
-Wire Wire Line
-	5750 2700 5750 2600
-Wire Wire Line
-	5650 2700 5750 2700
 $Sheet
 S 4100 850  750  1050
 U 5BDB568B
@@ -234,7 +194,7 @@ U 1 1 5BF6D1F4
 P 1250 1500
 F 0 "J1" H 1250 1600 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 1250 1300 50  0000 C CNN
-F 2 "" H 1250 1500 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1250 1500 50  0001 C CNN
 F 3 "~" H 1250 1500 50  0001 C CNN
 	1    1250 1500
 	-1   0    0    -1  
@@ -295,7 +255,7 @@ U 1 1 5BFB9FA5
 P 6250 3150
 F 0 "J6" V 6310 2963 50  0000 R CNN
 F 1 "Conn_01x03_Male" V 6401 2963 50  0000 R CNN
-F 2 "" H 6250 3150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6250 3150 50  0001 C CNN
 F 3 "~" H 6250 3150 50  0001 C CNN
 	1    6250 3150
 	0    -1   1    0   
@@ -328,7 +288,7 @@ U 1 1 5C015BC8
 P 7500 5550
 F 0 "J10" H 7580 5592 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 7580 5501 50  0000 L CNN
-F 2 "" H 7500 5550 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 7500 5550 50  0001 C CNN
 F 3 "~" H 7500 5550 50  0001 C CNN
 	1    7500 5550
 	1    0    0    -1  
@@ -345,7 +305,7 @@ U 1 1 5C015BD2
 P 7500 6300
 F 0 "J11" H 7580 6292 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 7580 6201 50  0000 L CNN
-F 2 "" H 7500 6300 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 7500 6300 50  0001 C CNN
 F 3 "~" H 7500 6300 50  0001 C CNN
 	1    7500 6300
 	1    0    0    -1  
@@ -396,7 +356,7 @@ U 1 1 5C015BF4
 P 6250 5000
 F 0 "J7" V 6310 4813 50  0000 R CNN
 F 1 "Conn_01x03_Male" V 6401 4813 50  0000 R CNN
-F 2 "" H 6250 5000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6250 5000 50  0001 C CNN
 F 3 "~" H 6250 5000 50  0001 C CNN
 	1    6250 5000
 	0    -1   1    0   
@@ -471,4 +431,44 @@ Wire Wire Line
 	6350 3900 6450 3900
 Wire Wire Line
 	6250 3350 6250 3750
+$Comp
+L Connector:Screw_Terminal_01x08 J5
+U 1 1 5BDC94A6
+P 5500 2700
+F 0 "J5" H 5580 2692 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H 5580 2601 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal" H 5500 2700 50  0001 C CNN
+F 3 "~" H 5500 2700 50  0001 C CNN
+	1    5500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2400 5300 2400
+Wire Wire Line
+	4850 3200 5200 3200
+Wire Wire Line
+	5300 2900 5200 2900
+Wire Wire Line
+	5300 2700 5200 2700
+Wire Wire Line
+	5200 2700 5200 2900
+Connection ~ 5200 2900
+Wire Wire Line
+	5300 2500 5200 2500
+Wire Wire Line
+	5200 2500 5200 2700
+Connection ~ 5200 2700
+Wire Wire Line
+	4850 2600 5300 2600
+Wire Wire Line
+	4850 2800 5300 2800
+Wire Wire Line
+	4850 3000 5300 3000
+Wire Wire Line
+	5200 3100 5300 3100
+Wire Wire Line
+	5200 2900 5200 3100
+Connection ~ 5200 3100
+Wire Wire Line
+	5200 3100 5200 3200
 $EndSCHEMATC
