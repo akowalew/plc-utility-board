@@ -151,7 +151,7 @@ AR Path="/5BF2FCD2/5BE6F6F1" Ref="Q?"  Part="1"
 AR Path="/5C015BEE/5BE6F6F1" Ref="Q16"  Part="1" 
 F 0 "Q16" H 7055 3396 50  0000 L CNN
 F 1 "2N7002" H 7055 3305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7050 3275 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7050 3275 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 6850 3350 50  0001 L CNN
 	1    6850 3350
 	1    0    0    -1  
@@ -226,7 +226,7 @@ AR Path="/5BF2FCD2/5BE6F6C3" Ref="Q?"  Part="1"
 AR Path="/5C015BEE/5BE6F6C3" Ref="Q15"  Part="1" 
 F 0 "Q15" H 6005 3396 50  0000 L CNN
 F 1 "2N7002" H 6005 3305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6000 3275 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6000 3275 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5800 3350 50  0001 L CNN
 	1    5800 3350
 	1    0    0    -1  
@@ -308,7 +308,7 @@ AR Path="/5BF2FCD2/5BE6F68E" Ref="Q?"  Part="1"
 AR Path="/5C015BEE/5BE6F68E" Ref="Q14"  Part="1" 
 F 0 "Q14" H 5005 3396 50  0000 L CNN
 F 1 "2N7002" H 5005 3305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5000 3275 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5000 3275 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4800 3350 50  0001 L CNN
 	1    4800 3350
 	1    0    0    -1  

@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SRF1260-100M
+#
+DEF SRF1260-100M L 0 40 N N 1 L N
+F0 "L" -300 200 50 H V L BNN
+F1 "SRF1260-100M" -300 -300 50 H V L BNN
+F2 "IND_SRF1260-100M" 0 0 50 H I L BNN
+F3 "Inductor Power Shielded Wirewound 10uH/40uH 20% 100KHz Ferrite 5.35A/2.67A 24.6mOhm/93.4mOhm DCR T/R" 0 0 50 H I L BNN
+F4 "Bourns" 0 0 50 H I L BNN
+F5 "Nonstandard Bourns" 0 0 50 H I L BNN
+F6 "SRF1260-100M" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "Unavailable" 0 0 50 H I L BNN
+DRAW
+A -150 100 50 1799 0 0 0 10 N -200 100 -100 100
+A -50 100 50 1799 0 0 0 10 N -100 100 0 100
+A 50 100 50 1799 0 0 0 10 N 0 100 100 100
+A 150 100 50 1799 0 0 0 10 N 100 100 200 100
+A 150 -100 50 0 1799 0 0 10 N 200 -100 100 -100
+A 50 -100 50 0 1799 0 0 10 N 100 -100 0 -100
+A -50 -100 50 0 1799 0 0 10 N 0 -100 -100 -100
+A -150 -100 50 0 1799 0 0 10 N -100 -100 -200 -100
+C -250 -50 5 0 0 20 N
+C -250 50 5 0 0 20 N
+X 2 2 -400 100 200 R 40 40 0 0 P 
+X 4 4 400 100 200 L 40 40 0 0 P 
+X 3 3 400 -100 200 L 40 40 0 0 P 
+X 1 1 -400 -100 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

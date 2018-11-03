@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# DR125-470-R
+#
+DEF DR125-470-R L 0 40 N N 1 L N
+F0 "L" 89 159 50 H V L BNN
+F1 "DR125-470-R" 63 -148 50 H V L BNN
+F2 "INDM125125X600N" 0 0 50 H I L BNN
+F3 "Inductor Power Shielded Drum Core 47.47uH/47uH 20% 100KHz Ferrite 2.71A 74mOhm DCR T/R" 0 0 50 H I L BNN
+F4 "Eaton" 0 0 50 H I L BNN
+F5 "Nonstandard Eaton" 0 0 50 H I L BNN
+F6 "DR125-470-R" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "Unavailable" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 8 200 0 200 50 N
+P 2 0 0 8 300 0 300 50 N
+P 2 0 0 8 500 0 500 50 N
+P 2 0 0 8 100 0 100 50 N
+P 2 0 0 8 400 0 400 50 N
+A 250 50 50 1799 0 0 0 0 N 200 50 300 50
+A 150 50 50 1799 0 0 0 0 N 100 50 200 50
+A 350 50 50 1799 0 0 0 0 N 300 50 400 50
+A 450 50 50 1799 0 0 0 0 N 400 50 500 50
+X 1 1 600 0 100 L 40 40 0 0 P 
+X 2 2 0 0 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

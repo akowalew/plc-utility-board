@@ -191,13 +191,13 @@ $EndSheet
 $Comp
 L Connector:Screw_Terminal_01x02 J1
 U 1 1 5BF6D1F4
-P 1250 1500
-F 0 "J1" H 1250 1600 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 1250 1300 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1250 1500 50  0001 C CNN
-F 3 "~" H 1250 1500 50  0001 C CNN
-	1    1250 1500
-	-1   0    0    -1  
+P 1250 1600
+F 0 "J1" H 1250 1700 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 1250 1400 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1250 1600 50  0001 C CNN
+F 3 "~" H 1250 1600 50  0001 C CNN
+	1    1250 1600
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1450 1600 1750 1600

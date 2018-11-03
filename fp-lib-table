@@ -2,4 +2,6 @@
   (lib (name mylib)(type KiCad)(uri ${KIPRJMOD}/mylib.pretty)(options "")(descr ""))
   (lib (name L6205PD)(type Legacy)(uri ${KIPRJMOD}/L6205PD.mod)(options "")(descr ""))
   (lib (name TPS54240DGQ)(type Legacy)(uri ${KIPRJMOD}/TPS54240DGQ.mod)(options "")(descr ""))
+  (lib (name SRF1260-100M)(type Legacy)(uri ${KIPRJMOD}/SRF1260-100M.mod)(options "")(descr ""))
+  (lib (name DR125-470-R)(type Legacy)(uri ${KIPRJMOD}/DR125-470-R.mod)(options "")(descr ""))
 )
