@@ -191,13 +191,13 @@ $EndSheet
 $Comp
 L Connector:Screw_Terminal_01x02 J1
 U 1 1 5BF6D1F4
-P 1250 1500
-F 0 "J1" H 1250 1600 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 1250 1300 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1250 1500 50  0001 C CNN
-F 3 "~" H 1250 1500 50  0001 C CNN
-	1    1250 1500
-	-1   0    0    -1  
+P 1250 1600
+F 0 "J1" H 1250 1700 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 1250 1400 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1250 1600 50  0001 C CNN
+F 3 "~" H 1250 1600 50  0001 C CNN
+	1    1250 1600
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1450 1600 1750 1600
@@ -227,9 +227,9 @@ F1 "motor-driver.sch" 50
 F2 "VBB" I L 5300 3600 50 
 F3 "3V3" I L 5300 3750 50 
 F4 "GND" I L 5300 3900 50 
-F5 "MODE" I R 6050 3600 50 
+F5 "MODE" I R 6050 3900 50 
 F6 "PHASE" I R 6050 3750 50 
-F7 "ENABLE" I R 6050 3900 50 
+F7 "ENABLE" I R 6050 3600 50 
 F8 "3V3" O R 6050 4050 50 
 F9 "GND" O R 6050 4200 50 
 F10 "OUTA" O R 6050 4450 50 
