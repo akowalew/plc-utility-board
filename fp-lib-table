@@ -5,4 +5,5 @@
   (lib (name SRF1260-100M)(type Legacy)(uri ${KIPRJMOD}/SRF1260-100M.mod)(options "")(descr ""))
   (lib (name DR125-470-R)(type Legacy)(uri ${KIPRJMOD}/DR125-470-R.mod)(options "")(descr ""))
   (lib (name PTVS3V3P1UP)(type Legacy)(uri ${KIPRJMOD}/PTVS3V3P1UP.mod)(options "")(descr ""))
+  (lib (name SOP65P640X110-29N)(type Legacy)(uri ${KIPRJMOD}/SOP65P640X110-29N.mod)(options "")(descr ""))
 )

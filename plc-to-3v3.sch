@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -102,7 +102,7 @@ AR Path="/5BF2FCD2/5BE6F709" Ref="R?"  Part="1"
 AR Path="/5C015BEE/5BE6F709" Ref="R54"  Part="1" 
 F 0 "R54" H 7020 3946 50  0000 L CNN
 F 1 "10k" H 7020 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6880 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6880 3900 50  0001 C CNN
 F 3 "~" H 6950 3900 50  0001 C CNN
 	1    6950 3900
 	1    0    0    -1  
@@ -116,7 +116,7 @@ AR Path="/5BF2FCD2/5BE6F700" Ref="R?"  Part="1"
 AR Path="/5C015BEE/5BE6F700" Ref="R53"  Part="1" 
 F 0 "R53" H 6620 3946 50  0000 L CNN
 F 1 "10k" H 6620 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6480 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6480 3900 50  0001 C CNN
 F 3 "~" H 6550 3900 50  0001 C CNN
 	1    6550 3900
 	1    0    0    -1  
@@ -137,7 +137,7 @@ AR Path="/5BF2FCD2/5BE6F6F8" Ref="R?"  Part="1"
 AR Path="/5C015BEE/5BE6F6F8" Ref="R52"  Part="1" 
 F 0 "R52" V 6450 3100 50  0000 C CNN
 F 1 "4.7k" V 6650 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6480 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6480 3100 50  0001 C CNN
 F 3 "~" H 6550 3100 50  0001 C CNN
 	1    6550 3100
 	-1   0    0    1   
@@ -151,7 +151,7 @@ AR Path="/5BF2FCD2/5BE6F6F1" Ref="Q?"  Part="1"
 AR Path="/5C015BEE/5BE6F6F1" Ref="Q16"  Part="1" 
 F 0 "Q16" H 7055 3396 50  0000 L CNN
 F 1 "2N7002" H 7055 3305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SuperSOT-3" H 7050 3275 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7050 3275 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 6850 3350 50  0001 L CNN
 	1    6850 3350
 	1    0    0    -1  
@@ -177,7 +177,7 @@ AR Path="/5BF2FCD2/5BE6F6DA" Ref="R?"  Part="1"
 AR Path="/5C015BEE/5BE6F6DA" Ref="R51"  Part="1" 
 F 0 "R51" H 5970 3946 50  0000 L CNN
 F 1 "10k" H 5970 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5830 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5830 3900 50  0001 C CNN
 F 3 "~" H 5900 3900 50  0001 C CNN
 	1    5900 3900
 	1    0    0    -1  
@@ -191,7 +191,7 @@ AR Path="/5BF2FCD2/5BE6F6D2" Ref="R?"  Part="1"
 AR Path="/5C015BEE/5BE6F6D2" Ref="R50"  Part="1" 
 F 0 "R50" H 5570 3946 50  0000 L CNN
 F 1 "10k" H 5570 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 3900 50  0001 C CNN
 F 3 "~" H 5500 3900 50  0001 C CNN
 	1    5500 3900
 	1    0    0    -1  
@@ -212,7 +212,7 @@ AR Path="/5BF2FCD2/5BE6F6CA" Ref="R?"  Part="1"
 AR Path="/5C015BEE/5BE6F6CA" Ref="R49"  Part="1" 
 F 0 "R49" V 5400 3100 50  0000 C CNN
 F 1 "4.7k" V 5600 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 3100 50  0001 C CNN
 F 3 "~" H 5500 3100 50  0001 C CNN
 	1    5500 3100
 	-1   0    0    1   
@@ -226,7 +226,7 @@ AR Path="/5BF2FCD2/5BE6F6C3" Ref="Q?"  Part="1"
 AR Path="/5C015BEE/5BE6F6C3" Ref="Q15"  Part="1" 
 F 0 "Q15" H 6005 3396 50  0000 L CNN
 F 1 "2N7002" H 6005 3305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SuperSOT-3" H 6000 3275 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6000 3275 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5800 3350 50  0001 L CNN
 	1    5800 3350
 	1    0    0    -1  
@@ -259,7 +259,7 @@ AR Path="/5BF2FCD2/5BE6F6A5" Ref="R?"  Part="1"
 AR Path="/5C015BEE/5BE6F6A5" Ref="R48"  Part="1" 
 F 0 "R48" H 4970 3946 50  0000 L CNN
 F 1 "10k" H 4970 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4830 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4830 3900 50  0001 C CNN
 F 3 "~" H 4900 3900 50  0001 C CNN
 	1    4900 3900
 	1    0    0    -1  
@@ -273,7 +273,7 @@ AR Path="/5BF2FCD2/5BE6F69D" Ref="R?"  Part="1"
 AR Path="/5C015BEE/5BE6F69D" Ref="R47"  Part="1" 
 F 0 "R47" H 4570 3946 50  0000 L CNN
 F 1 "10k" H 4570 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4430 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 3900 50  0001 C CNN
 F 3 "~" H 4500 3900 50  0001 C CNN
 	1    4500 3900
 	1    0    0    -1  
@@ -294,7 +294,7 @@ AR Path="/5BF2FCD2/5BE6F695" Ref="R?"  Part="1"
 AR Path="/5C015BEE/5BE6F695" Ref="R46"  Part="1" 
 F 0 "R46" V 4400 3100 50  0000 C CNN
 F 1 "4.7k" V 4600 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4430 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 3100 50  0001 C CNN
 F 3 "~" H 4500 3100 50  0001 C CNN
 	1    4500 3100
 	-1   0    0    1   
@@ -308,7 +308,7 @@ AR Path="/5BF2FCD2/5BE6F68E" Ref="Q?"  Part="1"
 AR Path="/5C015BEE/5BE6F68E" Ref="Q14"  Part="1" 
 F 0 "Q14" H 5005 3396 50  0000 L CNN
 F 1 "2N7002" H 5005 3305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SuperSOT-3" H 5000 3275 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5000 3275 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4800 3350 50  0001 L CNN
 	1    4800 3350
 	1    0    0    -1  
