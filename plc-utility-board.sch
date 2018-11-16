@@ -173,13 +173,13 @@ $EndSheet
 $Comp
 L Connector:Screw_Terminal_01x02 J1
 U 1 1 5BF6D1F4
-P 1250 1500
-F 0 "J1" H 1250 1600 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 1250 1300 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1250 1500 50  0001 C CNN
-F 3 "~" H 1250 1500 50  0001 C CNN
-	1    1250 1500
-	-1   0    0    -1  
+P 1250 1600
+F 0 "J1" H 1250 1700 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 1250 1400 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1250 1600 50  0001 C CNN
+F 3 "~" H 1250 1600 50  0001 C CNN
+	1    1250 1600
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1450 1600 1750 1600
@@ -370,44 +370,12 @@ Wire Wire Line
 	5050 3600 5050 3950
 Wire Wire Line
 	4850 2400 5150 2400
-$Comp
-L mylib:TerminalBlock_02x04 J5
-U 1 1 5BE0B666
-P 5400 2600
-F 0 "J5" H 5400 2183 50  0000 C CNN
-F 1 "TerminalBlock_02x04" H 5400 2274 50  0000 C CNN
-F 2 "mylib:DG500B-5.0-4P14" H 5400 2600 50  0001 C CNN
-F 3 "" H 5400 2600 50  0001 C CNN
-	1    5400 2600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4850 2500 5150 2500
 Wire Wire Line
 	4850 2600 5150 2600
 Wire Wire Line
 	5150 2700 4850 2700
-Wire Wire Line
-	4850 3000 5750 3000
-Wire Wire Line
-	5750 3000 5750 2700
-Wire Wire Line
-	5750 2400 5650 2400
-Wire Wire Line
-	5650 2500 5750 2500
-Connection ~ 5750 2500
-Wire Wire Line
-	5750 2500 5750 2400
-Wire Wire Line
-	5650 2600 5750 2600
-Connection ~ 5750 2600
-Wire Wire Line
-	5750 2600 5750 2500
-Wire Wire Line
-	5650 2700 5750 2700
-Connection ~ 5750 2700
-Wire Wire Line
-	5750 2700 5750 2600
 Wire Wire Line
 	3050 2850 3050 3800
 Wire Wire Line
@@ -435,4 +403,15 @@ Wire Wire Line
 	2850 5700 4100 5700
 Wire Wire Line
 	2850 4100 2850 5700
+$Comp
+L mylib:Screw_Terminal_01x04 J5
+U 1 1 5BEF4585
+P 5350 2500
+F 0 "J5" H 5430 2492 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 5430 2401 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal" H 5350 2500 50  0001 C CNN
+F 3 "~" H 5350 2500 50  0001 C CNN
+	1    5350 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
