@@ -62,13 +62,13 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J9
 U 1 1 5BE7A1DF
-P 6300 4750
-F 0 "J9" H 6380 4742 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 6380 4651 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 6300 4750 50  0001 C CNN
-F 3 "~" H 6300 4750 50  0001 C CNN
-	1    6300 4750
-	1    0    0    1   
+P 6300 4650
+F 0 "J9" H 6380 4642 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 6380 4551 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 6300 4650 50  0001 C CNN
+F 3 "~" H 6300 4650 50  0001 C CNN
+	1    6300 4650
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4850 4650 6100 4650
