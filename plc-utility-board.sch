@@ -369,14 +369,6 @@ Wire Wire Line
 Wire Wire Line
 	5050 3600 5050 3950
 Wire Wire Line
-	4850 2400 5150 2400
-Wire Wire Line
-	4850 2500 5150 2500
-Wire Wire Line
-	4850 2600 5150 2600
-Wire Wire Line
-	5150 2700 4850 2700
-Wire Wire Line
 	3050 2850 3050 3800
 Wire Wire Line
 	2950 1650 2950 3950
@@ -403,15 +395,23 @@ Wire Wire Line
 	2850 5700 4100 5700
 Wire Wire Line
 	2850 4100 2850 5700
+Wire Wire Line
+	4850 2400 5550 2400
+Wire Wire Line
+	4850 2500 5550 2500
 $Comp
 L mylib:Screw_Terminal_01x04 J5
-U 1 1 5BEF4585
-P 5350 2500
-F 0 "J5" H 5430 2492 50  0000 L CNN
-F 1 "Screw_Terminal_01x04" H 5430 2401 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal" H 5350 2500 50  0001 C CNN
-F 3 "~" H 5350 2500 50  0001 C CNN
-	1    5350 2500
+U 1 1 5BF59862
+P 5750 2500
+F 0 "J5" H 5830 2492 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 5830 2401 50  0000 L CNN
+F 2 "" H 5750 2500 50  0001 C CNN
+F 3 "~" H 5750 2500 50  0001 C CNN
+	1    5750 2500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4850 2700 5550 2700
+Wire Wire Line
+	4850 2600 5550 2600
 $EndSCHEMATC

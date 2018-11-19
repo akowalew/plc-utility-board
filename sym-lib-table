@@ -4,4 +4,6 @@
   (lib (name TPS54240DGQ)(type Legacy)(uri ${KIPRJMOD}/TPS54240DGQ.lib)(options "")(descr ""))
   (lib (name SRF1260-100M)(type Legacy)(uri ${KIPRJMOD}/SRF1260-100M.lib)(options "")(descr ""))
   (lib (name DR125-470-R)(type Legacy)(uri ${KIPRJMOD}/DR125-470-R.lib)(options "")(descr ""))
+  (lib (name 1726040)(type Legacy)(uri ${KIPRJMOD}/1726040.lib)(options "")(descr ""))
+  (lib (name CHS-01TB)(type Legacy)(uri ${KIPRJMOD}/CHS-01TB.lib)(options "")(descr ""))
 )

@@ -7,4 +7,6 @@
   (lib (name PTVS3V3P1UP)(type Legacy)(uri ${KIPRJMOD}/PTVS3V3P1UP.mod)(options "")(descr ""))
   (lib (name SOP65P640X110-29N)(type Legacy)(uri ${KIPRJMOD}/SOP65P640X110-29N.mod)(options "")(descr ""))
   (lib (name plc-utility-board)(type KiCad)(uri /home/akowalew/workspace/plc-utility-board)(options "")(descr ""))
+  (lib (name 1726040)(type Legacy)(uri ${KIPRJMOD}/1726040.mod)(options "")(descr ""))
+  (lib (name CHS-01TB)(type Legacy)(uri ${KIPRJMOD}/CHS-01TB.mod)(options "")(descr ""))
 )

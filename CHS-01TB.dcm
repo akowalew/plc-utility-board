@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CHS-01TB
+D SWITCH SLIDE DIP SPST 100MA 6V
+K
+F https://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf
+$ENDCMP
+#
+#End Doc Library
