@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -199,7 +199,7 @@ U 1 1 5BE84287
 P 4200 3650
 AR Path="/5BDB64FF/5BE84287" Ref="R21"  Part="1" 
 AR Path="/5C015BE4/5BE84287" Ref="R26"  Part="1" 
-F 0 "R26" H 4050 3650 50  0000 L CNN
+F 0 "R26" H 4000 3650 50  0000 L CNN
 F 1 "0.33" H 4000 3550 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" H 4200 3650 50  0001 C CNN
 F 3 "~" H 4200 3650 50  0001 C CNN
@@ -260,10 +260,7 @@ PHASE
 Text HLabel 6900 2950 1    50   Input ~ 0
 DECAY
 Wire Wire Line
-	6450 2400 6450 2550
-Wire Wire Line
-	5900 3150 6000 3150
-Connection ~ 6450 3150
+	6450 2100 6450 2350
 Wire Wire Line
 	5900 4050 6000 4050
 Wire Wire Line
@@ -338,14 +335,9 @@ F 3 "~" H 6850 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 3150 6450 3950
-Wire Wire Line
 	5900 3550 6000 3550
 Wire Wire Line
 	6000 3550 6000 3450
-Connection ~ 6000 3150
-Wire Wire Line
-	6000 3150 6450 3150
 Connection ~ 6000 3450
 Wire Wire Line
 	6000 3450 6000 3350
@@ -353,12 +345,6 @@ Wire Wire Line
 	5900 3450 6000 3450
 Wire Wire Line
 	5900 3350 6000 3350
-Connection ~ 6000 3350
-Wire Wire Line
-	6000 3350 6000 3250
-Connection ~ 6000 3250
-Wire Wire Line
-	6000 3250 6000 3150
 Wire Wire Line
 	5900 3250 6000 3250
 $Comp
@@ -416,7 +402,7 @@ Connection ~ 3950 3650
 Connection ~ 4200 3850
 Wire Wire Line
 	4200 3850 4200 4350
-Text HLabel 6450 2400 1    50   Input ~ 0
+Text HLabel 6450 2100 1    50   Input ~ 0
 3V3
 Text HLabel 4100 4750 0    50   Input ~ 0
 GND
@@ -504,17 +490,15 @@ Wire Wire Line
 	7700 3050 7600 3050
 Connection ~ 7700 3450
 Wire Wire Line
-	6450 2550 7700 2550
-Connection ~ 6450 2550
-Wire Wire Line
-	6450 2550 6450 3150
+	6450 2350 7700 2350
+Connection ~ 6450 2350
 Connection ~ 7700 3050
 Wire Wire Line
 	7800 3850 7700 3850
 Wire Wire Line
 	8300 3850 8200 3850
 Wire Wire Line
-	7700 2550 7700 3050
+	7700 2350 7700 3050
 Wire Wire Line
 	5900 3850 6900 3850
 Connection ~ 7700 3850
@@ -563,4 +547,38 @@ Wire Wire Line
 Wire Wire Line
 	8300 3850 8300 5350
 Connection ~ 6850 5350
+$Comp
+L Switch:SW_DIP_x01 SW7
+U 1 1 5BF2E001
+P 6150 2750
+AR Path="/5BDB64FF/5BF2E001" Ref="SW7"  Part="1" 
+AR Path="/5C015BE4/5BF2E001" Ref="SW8"  Part="1" 
+F 0 "SW8" V 6104 2880 50  0000 L CNN
+F 1 "SW_DIP_x01" V 6195 2880 50  0000 L CNN
+F 2 "mylib:CHS01TB" H 6150 2750 50  0001 C CNN
+F 3 "" H 6150 2750 50  0001 C CNN
+	1    6150 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 3350 6450 3350
+Connection ~ 6000 3350
+Connection ~ 6450 3350
+Wire Wire Line
+	6450 3350 6450 3950
+Wire Wire Line
+	6450 2350 6450 3350
+Wire Wire Line
+	5900 3150 6000 3150
+Wire Wire Line
+	6150 3150 6150 3050
+Wire Wire Line
+	6000 3250 6000 3150
+Connection ~ 6000 3150
+Wire Wire Line
+	6000 3150 6150 3150
+Wire Wire Line
+	6150 2450 6150 2350
+Wire Wire Line
+	6150 2350 6450 2350
 $EndSCHEMATC

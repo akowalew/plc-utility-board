@@ -405,7 +405,7 @@ U 1 1 5BF59862
 P 5750 2500
 F 0 "J5" H 5830 2492 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 5830 2401 50  0000 L CNN
-F 2 "" H 5750 2500 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal" H 5750 2500 50  0001 C CNN
 F 3 "~" H 5750 2500 50  0001 C CNN
 	1    5750 2500
 	1    0    0    -1  
