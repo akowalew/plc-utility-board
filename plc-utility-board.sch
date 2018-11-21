@@ -414,4 +414,59 @@ Wire Wire Line
 	4850 2700 5550 2700
 Wire Wire Line
 	4850 2600 5550 2600
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5BF5CA64
+P 8500 4350
+F 0 "H1" H 8600 4396 50  0000 L CNN
+F 1 "MountingHole" H 8600 4305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8500 4350 50  0001 C CNN
+F 3 "~" H 8500 4350 50  0001 C CNN
+	1    8500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5BF5CABE
+P 9450 4350
+F 0 "H3" H 9550 4396 50  0000 L CNN
+F 1 "MountingHole" H 9550 4305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9450 4350 50  0001 C CNN
+F 3 "~" H 9450 4350 50  0001 C CNN
+	1    9450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5BF5CB0C
+P 8500 4700
+F 0 "H2" H 8600 4746 50  0000 L CNN
+F 1 "MountingHole" H 8600 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8500 4700 50  0001 C CNN
+F 3 "~" H 8500 4700 50  0001 C CNN
+	1    8500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5BF5CB56
+P 9450 4700
+F 0 "H4" H 9550 4746 50  0000 L CNN
+F 1 "MountingHole" H 9550 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9450 4700 50  0001 C CNN
+F 3 "~" H 9450 4700 50  0001 C CNN
+	1    9450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO1
+U 1 1 5BF5D0FC
+P 9100 3550
+F 0 "#LOGO1" H 9100 4050 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 9100 3150 50  0001 C CNN
+F 2 "plc-utility-board:logo" H 9100 3550 50  0001 C CNN
+F 3 "~" H 9100 3550 50  0001 C CNN
+	1    9100 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
